@@ -1,0 +1,23 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+   
+{
+    int x = get_int("Please select the amount of money\n");
+       
+    {  
+        int a = (x/25);
+        int b = (x%25);
+        printf("Please give %i 25 cent coins\n", a); \\Shows 
+        int c = (b/10);
+        int d = (b%10);
+        printf("Please give %i 10 cent coins\n", c);
+        int e = (d/5);
+        int f = (d%5);
+        printf ("Please give %i 5 cent coins\n", e);
+        printf ("Please give %i 1 cent coins\n", f);
+      
+}
+}
+    
