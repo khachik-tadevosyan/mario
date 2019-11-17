@@ -1,0 +1,50 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+   int a;
+    do 
+    {
+       a=get_int("Please select the game level\n"); 
+    }
+    while (a<1 || a>8);
+    {
+           if (a==1) 
+{
+    printf("       #\n"); 
+}
+else if (a==2) 
+{
+    printf("      #\n" "     ##\n"); 
+}
+else if (a==3)
+{ 
+    printf("     #\n" "    ##\n" "   ###\n"); 
+    
+}
+else if (a==4) 
+{ 
+    printf("     #\n" "    ##\n" "   ###\n" "  ####\n");
+}
+else if (a==5) 
+    
+{ 
+    printf("    #\n" "   ##\n" "  ###\n" " ####\n" "#####\n"); 
+}
+else if (a==6) 
+{ 
+    printf("     #\n" "    ##\n" "   ###\n" "  ####\n" " #####\n" "######\n"); 
+}
+else if (a==7) 
+{
+    printf("      #\n" "     ##\n" "    ###\n" "   ####\n" "  #####\n" " ######\n" "#######\n"); 
+}
+
+else if (a==8) 
+{
+    printf("       #\n" "      ##\n" "     ###\n" "    ####\n" "   #####\n" "  ######\n" " #######\n" "########\n");
+}
+  
+    }
+}
